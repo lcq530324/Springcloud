@@ -1,0 +1,4 @@
+server:  port: 8767
+spring:
+  application:
+    name: Config-server  cloud:    config:      label: lcq      server:        git:          uri: https://github.com/lcq530324/MySpring-Test          search-paths: lcq          username:           password: 

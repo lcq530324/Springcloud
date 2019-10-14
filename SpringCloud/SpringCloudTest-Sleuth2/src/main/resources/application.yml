@@ -1,0 +1,4 @@
+server:
+  port: 8770
+spring:  application:    name: zipkin-server
+  zipkin:    base-url: http://localhost:9000

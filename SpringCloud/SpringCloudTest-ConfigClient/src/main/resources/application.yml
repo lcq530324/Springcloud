@@ -1,0 +1,5 @@
+server:
+  port: 8768
+spring:  application:    name: config-client  cloud:    config:      profile: dev
+      label: master
+      uri: http://localhost:8767/
